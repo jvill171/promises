@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="/static/styles.css">
     <title>{% block title %}Base Title{% endblock %}</title>
 </head>
+{% block body %}
 <body class="bg-dark text-light">
+{% endblock %}
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Promises</a>
@@ -19,6 +21,9 @@
                 </li>
                 <li class="nav-item ms-2">
                     <a class="nav-link" href="/cards"><b>Cards</b></a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a class="nav-link" href="/pokemon"><b>Pokemon</b></a>
                 </li>
             </ul>
         </div>
