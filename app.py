@@ -23,3 +23,7 @@ def numFacts():
 @app.route('/cards')
 def cards():
     return render_template('cards.html')
+
+@app.route('/pokemon')
+def pokemon():
+    return render_template('pokemon.html')
